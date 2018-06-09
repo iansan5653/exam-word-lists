@@ -36,7 +36,7 @@ const generateDefinitions = words => {
       if(!cachedData[firstLetter]) {
         // If we haven't already loaded the file for this letter, load it
         try {
-          const data = await readFile(`wordset-dictionary/data/${firstLetter}.json`);
+          const data = await readFile(`../wordset-dictionary/data/${firstLetter}.json`);
           cachedData[firstLetter] = JSON.parse(data);
         } catch(e) {
           console.error(`Definition generation failed on "${word}".`);
