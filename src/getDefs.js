@@ -96,3 +96,4 @@ const writeDefinitions = words => {
 // Export functions
 module.exports.generateDefinitions = generateDefinitions;
 module.exports.writeDefinitions = writeDefinitions;
+module.exports.promiseRead = readFile;
