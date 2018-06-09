@@ -1,0 +1,14 @@
+{
+  "name": "mcat-word-list",
+  "version": "1.0.0",
+  "description": "Large word list for the MCAT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iansan5653@gmail.com",
+  "license": "CC BY-SA 4.0",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
