@@ -1,5 +1,4 @@
-failedWords.json
-definitions.json
-
+src/failedWords.json
+src/definitions.json
 src/node_modules
 src/index.js
