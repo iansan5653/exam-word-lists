@@ -8,4 +8,23 @@ All of the lists are location in the _lists_ folder. The data is structured like
 {
   "WORD": {
     "word": "WORD",
-    "wordset_id":"54bd57a37265742391515606","meanings":[{"id":"54bd57a37265742391535606","def":"an optical phenomenon resulting from the failure of a lens or mirror to produce a good image","speech_part":"noun","synonyms":["optical aberration","distortion"]},{"id":"54bd57a37265742391545606","def":"a disorder in one's mental state","speech_part":"noun"},{"id":"54bd57a37265742391555606","def":"a state or condition markedly different from the norm","speech_part":"noun","synonyms":["deviance"]}]},
+    "meanings": [
+      {
+        "def": "a definition of the word",
+        "speech_part": "partofspeech",
+        "synonyms": ["similar phrase", "similarword"]
+      },
+      {
+        ...
+      },
+    ]
+  },
+  ...
+}
+```
+
+### License
+All of the word data is available under the CC-BY-SA 4.0 license. The original definition data is from the wordset-dictionary repository.
+
+### Contributing
+If you have an array of words without definitions and you'd like to contribute, there are some helpful functions in the src folder. 
